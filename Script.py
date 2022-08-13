@@ -30,25 +30,27 @@ class script(object):
     <b>✯ Creator : <a href="http://t.me/abhiram_vf">AR⚡</a></b>
     <b>✯ Credits : Everyone in this journey</b>
     <b>✯ Language : Python3</b>
-    <b>✯ Library : Pyrogram 0.17.1</b>
+    <b>✯ Library : Pyrogram 2.0.30</b>
     <b>✯ Supported Site : Only Telegram</b>
     <b>✯ Source Code : Not Available..🙁</b>
     <b>✯ Server : Heroku</b>
     <b>✯ Database : MongoDB</b>
     <b>✯ Build Status : V2.1 [BETA]</b>
        """
-    SOURCE_TXT = """<b>NOTE:</b>
-- Eva Maria is a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria  
+    SOURCE_TXT = """<b>Source</b>
+    
+<b>➠ Jerry Is A Private Project⚠️</b>
 
-<b>DEVS:</b>
-- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
+<b>➠ Maintained By : <a href="http://t.me/abhiram_vf">AR⚡</a></b>  
+
+
+"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. eva maria should have admin privillage.
+1. Jᴇʀʀʏ⚡️ should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -59,11 +61,11 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Eva Maria Supports both url and alert inline buttons.
+- Jᴇʀʀʏ⚡️ Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
+2. Jᴇʀʀʏ⚡️ supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
