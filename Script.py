@@ -130,7 +130,7 @@ This module only works for my admins
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
     STATUS_TXT = """
-<b>➠ Current Status of Jᴇʀʀʏ⚡️</b>
+<b>➠ Current Status of <a href="http://t.me/jerry_autofilterbot">Jᴇʀʀʏ⚡️</a></b>
 
 <b>★ Total Files: <code>{}</code></b>
 
