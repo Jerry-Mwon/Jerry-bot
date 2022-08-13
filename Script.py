@@ -9,9 +9,22 @@ class script(object):
     <b>Add Me To Your Groups For Movies🎬</b>
 
     <b>Maintained By : <a href="http://t.me/abhiram_vf">AR⚡</a></b>
-"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+    """
+    
+    HELP_TXT = """
+    <b>𝖧𝖾𝗒 {} 💖</b>
+
+    <b>➠ ADD ME TO YOUR GROUP</b>
+
+    <b>✯ You Can Check My status  Using This Command /Stats</b>
+
+    <b>➠ Notice 📙:-</b>
+
+    <b>✯ Dont Spam Me...🤒</b>
+
+    <b>➠ Maintained By : <a href="http://t.me/abhiram_vf">AR⚡</a></b>
+    """
+    
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
 ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
