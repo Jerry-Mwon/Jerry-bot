@@ -1,41 +1,41 @@
 class script(object):
     START_TXT = """
-    <b>Hi {}💖</b>
+<b>Hi {}💖</b>
 
-    <b>I am <a href="http://t.me/jerry_autofilterbot">Jᴇʀʀʏ⚡️</a></b>
+<b>I am <a href="http://t.me/jerry_autofilterbot">Jᴇʀʀʏ⚡️</a></b>
 
-    <b>Just a Simple Pre-Functioned Autofilter Bot🔥</b>
+<b>Just a Simple Pre-Functioned Autofilter Bot🔥</b>
 
-    <b>Add Me To Your Groups For Movies🎬</b>
+<b>Add Me To Your Groups For Movies🎬</b>
 
-    <b>Maintained By : <a href="http://t.me/abhiram_vf">AR⚡</a></b>
+<b>Maintained By : <a href="http://t.me/abhiram_vf">AR⚡</a></b>
     """
     
     HELP_TXT = """
-    <b>𝖧𝖾𝗒 {} 💖</b>
+<b>𝖧𝖾𝗒 {} 💖</b>
 
-    <b>➠ ADD ME TO YOUR GROUP</b>
+<b>➠ ADD ME TO YOUR GROUP</b>
 
-    <b>✯ You Can Check My status  Using This Command /Stats</b>
+<b>✯ You Can Check My status  Using This Command /Stats</b>
 
-    <b>➠ Notice 📙:-</b>
+<b>➠ Notice 📙:-</b>
 
-    <b>✯ Dont Spam Me...🤒</b>
+<b>✯ Dont Spam Me...🤒</b>
 
-    <b>➠ Maintained By : <a href="http://t.me/abhiram_vf">AR⚡</a></b>
+<b>➠ Maintained By : <a href="http://t.me/abhiram_vf">AR⚡</a></b>
     """
     
     ABOUT_TXT = """
-    <b>✯ My Name : {}</b>
-    <b>✯ Creator : <a href="http://t.me/abhiram_vf">AR⚡</a></b>
-    <b>✯ Credits : Everyone in this journey</b>
-    <b>✯ Language : Python3</b>
-    <b>✯ Library : Pyrogram 2.0.30</b>
-    <b>✯ Supported Site : Only Telegram</b>
-    <b>✯ Source Code : Not Available..🙁</b>
-    <b>✯ Server : Heroku</b>
-    <b>✯ Database : MongoDB</b>
-    <b>✯ Build Status : V2.1 [BETA]</b>
+<b>✯ My Name : {}</b>
+<b>✯ Creator : <a href="http://t.me/abhiram_vf">AR⚡</a></b>
+<b>✯ Credits : Everyone in this journey</b>
+<b>✯ Language : Python3</b>
+<b>✯ Library : Pyrogram 2.0.30</b>
+<b>✯ Supported Site : Only Telegram</b>
+<b>✯ Source Code : Not Available..🙁</b>
+<b>✯ Server : Heroku</b>
+<b>✯ Database : MongoDB</b>
+<b>✯ Build Status : V2.1 [BETA]</b>
        """
     SOURCE_TXT = """<b>Source</b>
     
@@ -130,17 +130,17 @@ This module only works for my admins
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
     STATUS_TXT = """
-    <b>➠ Current Status of Jᴇʀʀʏ⚡️</b>
+<b>➠ Current Status of Jᴇʀʀʏ⚡️</b>
 
-    <b>★ Total Files: <code>{}</code></b>
+<b>★ Total Files: <code>{}</code></b>
 
-    <b>★ Total Users: <code>{}</code></b>
+<b>★ Total Users: <code>{}</code></b>
 
-    <b>★ Total Chats: <code>{}</code></b>
+<b>★ Total Chats: <code>{}</code></b>
 
-    <b>★ Used Storage: <code>{}</code></b>
+<b>★ Used Storage: <code>{}</code></b>
 
-    <b>★ Free Storage : <code>{}</code></b>
+<b>★ Free Storage : <code>{}</code></b>
     """
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
