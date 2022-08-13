@@ -39,7 +39,7 @@ class script(object):
        """
     SOURCE_TXT = """<b>Source</b>
     
-<b>➠ Jerry Is A Private Project⚠️</b>
+<b>➠ Jᴇʀʀʏ⚡️ Is A Private Project⚠️</b>
 
 <b>➠ Maintained By : <a href="http://t.me/abhiram_vf">AR⚡</a></b>  
 
@@ -96,13 +96,26 @@ class script(object):
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of Eva Maria
+these are the extra features of Jᴇʀʀʏ⚡️
 
-<b>Commands and Usage:</b>
-• /id - <code>get id of a specified user.</code>
-• /info  - <code>get information about a user.</code>
-• /imdb  - <code>get the film information from IMDb source.</code>
-• /search  - <code>get the film information from various sources.</code>"""
+<b>➠ Commands and Usage :</b>
+
+<b>➠ /id</b>
+
+<b>✯ Get ID of a Specified User </b>
+
+<b>➠ /info</>
+
+<b>✯ Get Information About a User</b>
+
+<b>➠ /imdb</b>
+
+<b>✯ Get The Film Information From IMDb Soource</b>
+
+<b>➠ /search</b>
+
+<b>✯ Get The Film Information From Various Sources</b>
+"""
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
 <b>NOTE:</b>
