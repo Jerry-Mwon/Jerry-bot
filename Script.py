@@ -101,19 +101,15 @@ these are the extra features of Jᴇʀʀʏ⚡️
 <b>➠ Commands and Usage :</b>
 
 <b>➠ /id</b>
-
 <b>✯ Get ID of a Specified User </b>
 
-<b>➠ /info</>
-
+<b>➠ /info</b>
 <b>✯ Get Information About a User</b>
 
 <b>➠ /imdb</b>
-
 <b>✯ Get The Film Information From IMDb Soource</b>
 
 <b>➠ /search</b>
-
 <b>✯ Get The Film Information From Various Sources</b>
 """
     ADMIN_TXT = """Help: <b>Admin mods</b>
