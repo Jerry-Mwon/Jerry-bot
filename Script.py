@@ -39,7 +39,7 @@ class script(object):
        """
     SOURCE_TXT = """<b>Source</b>
     
-<b>➠ Jᴇʀʀʏ⚡️ Is A Private Project⚠️</b>
+<b>➠ <a href="http://t.me/jerry_autofilterbot">Jᴇʀʀʏ⚡️</a> Is A Private Project⚠️</b>
 
 <b>➠ Maintained By : <a href="http://t.me/abhiram_vf">AR⚡</a></b>  
 
