@@ -46,7 +46,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⚡ ᴡᴏʀᴋɪɴɢ ɢʀᴏᴜᴘ ⚡', url='https://t.me/+HElRgfS043YwMmVl)
+            InlineKeyboardButton('⚡ ᴡᴏʀᴋɪɴɢ ɢʀᴏᴜᴘ ⚡', url='https://t.me/+HElRgfS043YwMmVl')
             ],[
             InlineKeyboardButton('📚 ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ 🔰', callback_data='about')
