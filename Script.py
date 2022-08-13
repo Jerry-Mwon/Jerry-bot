@@ -25,13 +25,18 @@ class script(object):
     <b>➠ Maintained By : <a href="http://t.me/abhiram_vf">AR⚡</a></b>
     """
     
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
+    ABOUT_TXT = """
+    <b>✯ My Name : {}</b>
+    <b>✯ Creator : <a href="http://t.me/abhiram_vf">AR⚡</a></b>
+    <b>✯ Credits : Everyone in this journey</b>
+    <b>✯ Language : Python3</b>
+    <b>✯ Library : Pyrogram 0.17.1</b>
+    <b>✯ Supported Site : Only Telegram</b>
+    <b>✯ Source Code : Not Available..🙁</b>
+    <b>✯ Server : Heroku</b>
+    <b>✯ Database : MongoDB</b>
+    <b>✯ Build Status : V2.1 [BETA]</b>
+       """
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
 - Source - https://github.com/EvamariaTG/EvaMaria  
