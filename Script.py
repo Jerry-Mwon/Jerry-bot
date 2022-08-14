@@ -2,7 +2,7 @@ class script(object):
     START_TXT = """
 <b>Hi {}💖</b>
 
-<b>I am Jᴇʀʀʏ⚡️
+<b>I am Jᴇʀʀʏ⚡️</b>
 
 <b>Just a Simple Pre-Functioned Autofilter Bot🔥</b>
 
