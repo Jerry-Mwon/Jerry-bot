@@ -2,13 +2,13 @@ class script(object):
     START_TXT = """
 <b>Hi {}💖</b>
 
-<b>I am <a href="http://t.me/jerry_autofilterbot">Jᴇʀʀʏ⚡️</a></b>,disable_web_page_preview=True
+<b>I am Jᴇʀʀʏ⚡️
 
 <b>Just a Simple Pre-Functioned Autofilter Bot🔥</b>
 
 <b>Add Me To Your Groups For Movies🎬</b>
 
-<b>Maintained By : <a href="http://t.me/abhiram_vf">AR⚡</a></b>,disable_web_page_preview=True
+<b>Maintained By : <a href="http://t.me/abhiram_vf">AR⚡</a></b>
     """
     
     HELP_TXT = """
@@ -39,7 +39,7 @@ class script(object):
        """
     SOURCE_TXT = """<b>Source</b>
     
-<b>➠ <a href="http://t.me/jerry_autofilterbot">Jᴇʀʀʏ⚡️</a> Is A Private Project⚠️</b>
+<b>➠ Jᴇʀʀʏ⚡️ Is A Private Project⚠️</b>
 
 <b>➠ Maintained By : <a href="http://t.me/abhiram_vf">AR⚡</a></b>  
 
@@ -130,7 +130,7 @@ This module only works for my admins
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
     STATUS_TXT = """
-<b>➠ Current Status of <a href="http://t.me/jerry_autofilterbot">Jᴇʀʀʏ⚡️</a></b>,disable_web_page_preview=True
+<b>➠ Current Status of Jᴇʀʀʏ⚡️</b>
 
 <b>★ Total Files: <code>{}</code></b>
 
