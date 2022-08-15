@@ -97,9 +97,9 @@ async def next_page(bot, query):
 
         [
 
-            InlineKeyboardButton(f'📟 Files: {len(files)}', 'dupe'),
-            InlineKeyboardButton(f'🎁 Tips', 'tips'),
-            InlineKeyboardButton(f'📮 Info', 'info')
+            InlineKeyboardButton(f'ғɪʟᴇs: {len(files)}', 'dupe'),
+            InlineKeyboardButton(f'ᴛɪᴘs', 'tips'),
+            InlineKeyboardButton(f'ɪɴғᴏ', 'info')
 
         ]
 
