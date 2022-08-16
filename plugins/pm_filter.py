@@ -97,7 +97,6 @@ async def next_page(bot, query):
 
         [
 
-            InlineKeyboardButton(f'ғɪʟᴇs: {len(files)}', 'dupe'),
             InlineKeyboardButton(f'ᴛɪᴘs', 'tips'),
             InlineKeyboardButton(f'ɪɴғᴏ', 'info')
 
@@ -652,9 +651,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == 'info':
 
-        await query.answer("<b>➠ ɪɴғᴏʀᴍᴀᴛɪᴏɴ 💯\n\n✯ ɪғ ʏᴏᴜ ᴅᴏɴᴛ sᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ | sᴇʀɪᴇs ғɪʟᴇ , ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ\n\n𝐕𝐢𝐝 𝐅𝐚𝐜𝐭𝐨𝐫𝐲 ⚡<\b>
+        await query.answer("<b>➠ ɪɴғᴏʀᴍᴀᴛɪᴏɴ 💯\n\n✯ ɪғ ʏᴏᴜ ᴅᴏɴᴛ sᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ | sᴇʀɪᴇs ғɪʟᴇ , ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ\n\n𝐕𝐢𝐝 𝐅𝐚𝐜𝐭𝐨𝐫𝐲 ⚡<\b>", True)
 
-", True)
 
     try: await query.answer('Piracy Is Crime')
 
