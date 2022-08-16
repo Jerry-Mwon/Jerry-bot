@@ -644,15 +644,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == 'tips':
 
-        await query.answer("🔰 Ask with correct spelling\n🔰 Don't ask movies those are not released in OTT Some Of Theatre Quality Available🤧\n🔰 For better results:\n\t\t\t\t\t\t- MovieName year\n\t\t\t\t\t\t- Eg: Kaduva 2022\n\tⒸ 𝐕𝐢𝐝 𝐅𝐚𝐜𝐭𝐨𝐫𝐲 ᴍᴏᴠɪᴇs ɢʀᴏᴜᴘ🎬", True)
+        await query.answer("<b>➠ ᴛɪᴘs 💯\n\n✯ ᴀsᴋ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢ\n✯ ᴅᴏɴᴛ ᴀsᴋ ᴍᴏᴠɪᴇs ᴛʜᴏsᴇ ᴀʀᴇ ɴᴏᴛ ʀᴇʟᴇᴀsᴇᴅ\n✯ ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs ᴀʀᴇ ɴᴏᴛ ᴀᴠᴀɪʟɪᴀʙʟᴇ\n✯ ғᴏʀ ʙᴇᴛᴛᴇʀ ʀᴇsᴜʟᴛs :\n\t\t\t\t\t\t» Movie Name Year\n\t\t\t\t\t\t» Eg: Kaduva 2022\n\n\t𝐕𝐢𝐝 𝐅𝐚𝐜𝐭𝐨𝐫𝐲 ⚡</b>", True)
 
     elif query.data == 'reqst1':
 
-        await query.answer("Hey Bro 😍\n\n🎯 Click On The Button below The Files You Want And Start The Bot ⬇️", True)
+        await query.answer("<b>➠ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ 💯\n\n✯ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ғᴏʀ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ ғɪʟᴇ\n\n𝐕𝐢𝐝 𝐅𝐚𝐜𝐭𝐨𝐫𝐲 ⚡<\b>", True)
 
     elif query.data == 'info':
 
-        await query.answer("⚠︎ Information ⚠︎\n\nIf you do not see the requested movie / series file, look at the next page\n\nⒸ 𝐕𝐢𝐝 𝐅𝐚𝐜𝐭𝐨𝐫𝐲 ᴍᴏᴠɪᴇs ɢʀᴏᴜᴘ🎬", True)
+        await query.answer("<b>➠ ɪɴғᴏʀᴍᴀᴛɪᴏɴ 💯\n\n✯ ɪғ ʏᴏᴜ ᴅᴏɴᴛ sᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ | sᴇʀɪᴇs ғɪʟᴇ , ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ\n\n𝐕𝐢𝐝 𝐅𝐚𝐜𝐭𝐨𝐫𝐲 ⚡<\b>
+
+", True)
 
     try: await query.answer('Piracy Is Crime')
 
