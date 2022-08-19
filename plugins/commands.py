@@ -24,7 +24,7 @@ async def msg_handler(c, m):
 
     await m.reply_text(
 
-        "<b>Hey {mention}❗️\n\nI Am Only Works On Groups ✅\nIf You Need Movie Files As Your Wish Join Our Group And Ask Your Request There🤍\n\nJoin ➪ [MOVIE GROUP](https://t.me/+HElRgfS043YwMmVl)\n\nNote : Don't Spam Me🤕</b>",
+        "<b>Hey❗️\n\nI Am Only Works On Groups ✅\n\nIf You Need Movie Files As Your Wish Join Our Group And Ask Your Request There🤍\n\nJoin ➪ [MOVIE GROUP](https://t.me/+HElRgfS043YwMmVl)\n\nNote : Don't Spam Me🤕</b>",
         disable_web_page_preview=True 
        )
     
