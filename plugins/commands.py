@@ -18,13 +18,15 @@ logger = logging.getLogger(__name__)
 
 BATCH_FILES = {}
 
-@Client.on_message(filters.text)
+@Client.on_message(filters.private & filters.text & ~filters.regex("^/"))
+
 async def msg_handler(c, m):
+
     await m.reply_text(
-        "request in my group @vid_factory"
+
+        "<b>Hey {mention}❗️\n\nI Am Only Works On Groups ✅\nIf You Need Movie Files As Your Wish Join Our Group And Ask Your Request There🤍\n\nJoin ➪ [MOVIE GROUP](https://t.me/+HElRgfS043YwMmVl)\n\nNote : Don't Spam Me🤕</b>"
+
     )
-    await asyncio.sleep(10)
-    await Message.delete()
     
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
