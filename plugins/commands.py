@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 BATCH_FILES = {}
 
-@Client.on_message(filters.private & filters.text & ~filters.regex("^/"))
+@Client.on_message(filters.private & filters.text & ~filters.regex("^/") & ~filters.user(ADMINS))
 
 async def msg_handler(c, m):
 
