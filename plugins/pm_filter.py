@@ -755,7 +755,7 @@ async def auto_filter(client, msg, spoll=False):
 
         cap = f"<b>Hey {message.from_user.mention}, Here is What I Found In My Database For Your Query {search}.</b>"
 
-    if imdb and imdb.get('poster'):
+    if imdb and imdb.get('https://telegra.ph/file/cac48c3806cd3bbae08e0.jpg'):
 
         try:
 
@@ -769,7 +769,7 @@ async def auto_filter(client, msg, spoll=False):
 
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
 
-            pic = imdb.get('poster')
+            pic = imdb.get('https://telegra.ph/file/cac48c3806cd3bbae08e0.jpg')
 
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
 
