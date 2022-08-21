@@ -655,7 +655,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("➠ ɪɴғᴏʀᴍᴀᴛɪᴏɴ 💯\n\n✯ ɪғ ʏᴏᴜ ᴅᴏɴᴛ sᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ | sᴇʀɪᴇs ғɪʟᴇ , ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ\n\n𝐕𝐢𝐝 𝐅𝐚𝐜𝐭𝐨𝐫𝐲 ⚡", True)
 
 
-    try: await query.answer('No Of Files')
+    try: await query.answer('Number of Files In This Page')
 
     except: pass
 
