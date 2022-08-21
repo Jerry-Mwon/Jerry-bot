@@ -759,7 +759,7 @@ async def auto_filter(client, msg, spoll=False):
 
         try:
 
-            hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            hehe = await message.reply_photo(photo=imdb.get('https://telegra.ph/file/cac48c3806cd3bbae08e0.jpg'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
 
             await asyncio.sleep(600)
 
