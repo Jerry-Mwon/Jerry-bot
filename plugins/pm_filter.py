@@ -755,11 +755,11 @@ async def auto_filter(client, msg, spoll=False):
 
         cap = f"<b>Hey {message.from_user.mention}, Here is What I Found In My Database For Your Query {search}.</b>"
 
-    if imdb and imdb.get('https://telegra.ph/file/cac48c3806cd3bbae08e0.jpg'):
+    if imdb and imdb.get('poster'):
 
         try:
 
-            hehe = await message.reply_photo(photo=imdb.get('https://telegra.ph/file/cac48c3806cd3bbae08e0.jpg'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
 
             await asyncio.sleep(600)
 
@@ -769,7 +769,7 @@ async def auto_filter(client, msg, spoll=False):
 
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
 
-            pic = imdb.get('https://telegra.ph/file/cac48c3806cd3bbae08e0.jpg')
+            pic = imdb.get('poster')
 
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
 
