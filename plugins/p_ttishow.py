@@ -53,7 +53,7 @@ async def save_group(bot, message):
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply(f"<b>Hey {u.mention} ❤️ I Am Jᴇʀʀʏ⚡️\n\nWelcome to {message.chat.title}😍</b>")
+                temp.MELCOW['welcome'] = await message.reply(f"<b>Hey {u.mention} ❤️ I Am Jᴇʀʀʏ⚡️\n\nWelcome to😍 {message.chat.title}</b>")
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
@@ -167,7 +167,7 @@ async def gen_invite(bot, message):
         return await message.reply("Invite Link Generation Failed, Iam Not Having Sufficient Rights")
     except Exception as e:
         return await message.reply(f'Error {e}')
-    await message.reply(f'<b>Here is Your Invite Link To Join The Group\n\n➪ [GROUP LINK]({link.invite_link})</b>'disable_web_page_preview=True)
+    await message.reply(f'<b>Here is Your Invite Link To Join The Group\n\n➪ [GROUP LINK]({link.invite_link})</b>' , disable_web_page_preview=True)
 
 @Client.on_message(filters.command('ban') & filters.user(ADMINS))
 async def ban_a_user(bot, message):
