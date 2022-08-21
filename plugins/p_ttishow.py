@@ -38,7 +38,7 @@ async def save_group(bot, message):
             return
         buttons = [[
             InlineKeyboardButton('📚 ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs 🔰', url='https://t.me/TeamEvamaria')
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs 🔰', url='https://t.me/vid_factory')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -139,7 +139,7 @@ async def re_enable_chat(bot, message):
 
 @Client.on_message(filters.command('stats') & filters.incoming)
 async def get_ststs(bot, message):
-    rju = await message.reply('Fetching stats..')
+    rju = await message.reply('Fetching status..')
     total_users = await db.total_users_count()
     totl_chats = await db.total_chat_count()
     files = await Media.count_documents()
@@ -167,7 +167,7 @@ async def gen_invite(bot, message):
         return await message.reply("Invite Link Generation Failed, Iam Not Having Sufficient Rights")
     except Exception as e:
         return await message.reply(f'Error {e}')
-    await message.reply(f'Here is your Invite Link To Join The Group\n\n[GROUP LINK]({link.invite_link})')
+    await message.reply(f'<b>Here is Your Invite Link To Join The Group\n\n➪ [GROUP LINK]({link.invite_link})</b>'disable_web_page_preview=True)
 
 @Client.on_message(filters.command('ban') & filters.user(ADMINS))
 async def ban_a_user(bot, message):
