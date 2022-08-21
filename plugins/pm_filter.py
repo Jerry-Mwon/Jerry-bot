@@ -97,7 +97,7 @@ async def next_page(bot, query):
 
         [
             
-            InlineKeyboardButton(f'ғɪʟᴇs {len(files)}', 'dupe'),
+            InlineKeyboardButton(f'ғɪʟᴇs : {len(files)}', 'dupe'),
             InlineKeyboardButton(f'ᴛɪᴘs', 'tips'),
             InlineKeyboardButton(f'ɪɴғᴏ', 'info')
 
@@ -655,7 +655,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("➠ ɪɴғᴏʀᴍᴀᴛɪᴏɴ 💯\n\n✯ ɪғ ʏᴏᴜ ᴅᴏɴᴛ sᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ | sᴇʀɪᴇs ғɪʟᴇ , ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ\n\n𝐕𝐢𝐝 𝐅𝐚𝐜𝐭𝐨𝐫𝐲 ⚡", True)
 
 
-    try: await query.answer('Piracy Is Crime')
+    try: await query.answer('No Of Files')
 
     except: pass
 
@@ -706,6 +706,30 @@ async def auto_filter(client, msg, spoll=False):
             for file in files
         ]
 
+        btn.insert(0, 
+
+        [
+
+            InlineKeyboardButton(f'🎬 {search} 🎬', 'reqst1')
+
+        ]
+
+    )
+
+    btn.insert(1,
+
+        [
+
+            
+
+            InlineKeyboardButton(f'ғɪʟᴇs : {len(files)}', 'dupe'),
+
+            InlineKeyboardButton(f'ᴛɪᴘs', 'tips'),
+
+            InlineKeyboardButton(f'ɪɴғᴏ', 'info')
+        ]
+       
+    )    
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
         BUTTONS[key] = search
