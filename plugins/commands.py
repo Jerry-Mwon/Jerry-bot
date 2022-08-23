@@ -251,20 +251,13 @@ async def start(client, message):
             logger.exception(e)
             f_caption=f_caption
  sk = await client.send_cached_media(
-
         chat_id=message.from_user.id,
-
         file_id=file_id,
-
         caption=f_caption,
-
         protect_content=True if pre == 'filep' else False,
-
-    )
-
-    await asyncio.sleep(DELETE_TIME)
-
-    await sk.delete()
+      )
+     await asyncio.sleep(DELETE_TIME)
+     await sk.delete()
         protect_content=True if pre == 'filep' else False,
         )
                     
