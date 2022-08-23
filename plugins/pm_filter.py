@@ -786,7 +786,7 @@ async def auto_filter(client, msg, spoll=False):
 
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
 
-            await asyncio.sleep(600)
+            await asyncio.sleep(DELETE_TIME)
 
             await hehe.delete()
 
@@ -800,7 +800,7 @@ async def auto_filter(client, msg, spoll=False):
 
             hmm = await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
 
-            await asyncio.sleep(600)
+            await asyncio.sleep(DELETE_TIME)
 
             await hmm.delete()
 
@@ -812,7 +812,7 @@ async def auto_filter(client, msg, spoll=False):
 
             fek = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
 
-            await asyncio.sleep(600)
+            await asyncio.sleep(DELETE_TIME)
 
             await fek.delete()
 
@@ -822,7 +822,7 @@ async def auto_filter(client, msg, spoll=False):
 
         fuk = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
 
-        await asyncio.sleep(600)
+        await asyncio.sleep(DELETE_TIME)
 
         await fuk.delete()
 
@@ -846,7 +846,7 @@ async def advantage_spell_chok(msg):
     gs_parsed = []
     if not g_s:
         k = await msg.reply("I couldn't find any movie in that name.")
-        await asyncio.sleep(8)
+        await asyncio.sleep(10)
         await k.delete()
         return
     regex = re.compile(r".*(imdb|wikipedia).*", re.IGNORECASE)  # look for imdb / wiki results
