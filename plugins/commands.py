@@ -258,7 +258,7 @@ async def start(client, message):
       )
         await asyncio.sleep(DELETE_TIME)
     await sk.delete()
-        protect_content=True if pre == 'filep' else False,
+    protect_content=True if pre == 'filep' else False,
       )
                     
 
