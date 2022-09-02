@@ -140,9 +140,9 @@ This module only works for my admins
     """
     LOG_TEXT_G = """<b>#NewGroup</b>
     
-<b>Group Name :</b>
+<b>Group Name : </b>
 <b>{}</b>
-<b>Group ID : <code>{}</code><b/>
+<b>Group ID : <code>{}</code></b>
 <b>Total Members : <code>{}</code></b>
 <b>Added By : {}</b>
 """
