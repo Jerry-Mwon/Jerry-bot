@@ -138,12 +138,16 @@ This module only works for my admins
 <b>✯ ᴜꜱᴇᴅ ꜱᴛᴏʀᴀɢᴇ : <code>{}</code></b>
 <b>✯ ꜰʀᴇᴇ ꜱᴛᴏʀᴀɢᴇ : <code>{}</code></b>
     """
-    LOG_TEXT_G = """#NewGroup
-Group = {}(<code>{}</code>)
-Total Members = <code>{}</code>
-Added By - {}
+    LOG_TEXT_G = """<b>#NewGroup</b>
+    
+<b>Group Name :</b>
+<b>{}</b>
+<b>Group ID : <code>{}</code><b/>
+<b>Total Members : <code>{}</code></b>
+<b>Added By : {}</b>
 """
-    LOG_TEXT_P = """#NewUser
-ID - <code>{}</code>
-Name - {}
+    LOG_TEXT_P = """<b>#NewUser</b>
+    
+<b>User ID : <code>{}</code></b>
+<b>Name : {}</b>
 """
