@@ -777,61 +777,20 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-
-        cap = f"<b>Hey {message.from_user.mention}, Here is What I Found In My Database For Your Query {search}.</b>"
-
+        cap = f"<b>Hey 👋🏻 {message.from_user.mention} 😍\n\n<i>🔖 Title : {search}\n📫 Your Files is Ready Now</i></b>"
     if imdb and imdb.get('poster'):
-
         try:
-
-            hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-
-            await asyncio.sleep(DELETE_TIME)
-
-            await hehe.delete()
-
-            await message.delete()
-
+            await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
+                                      reply_markup=InlineKeyboardMarkup(btn))
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
-
             pic = imdb.get('poster')
-
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
-
-            hmm = await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-
-            await asyncio.sleep(DELETE_TIME)
-
-            await hmm.delete()
-
-            await message.delete()
-
+            await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
         except Exception as e:
-
             logger.exception(e)
-
-            fek = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-
-            await asyncio.sleep(DELETE_TIME)
-
-            await fek.delete()
-
-            await message.delete()
-
+            await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     else:
-
-        fuk = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-
-        await asyncio.sleep(DELETE_TIME)
-
-        await fuk.delete()
-
-        await message.delete()
-
-    if spoll:
-
-        await msg.message.delete()
-                                  
+        fmsg = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))  
     if spoll:
         await msg.message.delete()
 
