@@ -153,8 +153,8 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('This Movie Not Found In DataBase')
-            await asyncio.sleep(10)
+            k = await query.message.edit('<b>Movie Not Available ❗\n\nReason :-\n» This Movie is Not Released on OTT Platfor\n» If Released Type Movie Name With Year\n» Movie is Not Available in The Database\n\n𝐕𝐢𝐝 𝐅𝐚𝐜𝐭𝐨𝐫𝐲 ⚡</b>')
+            await asyncio.sleep(20)
             await k.delete()
 
 
@@ -630,26 +630,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ]
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
-
             await query.message.edit_reply_markup(reply_markup)
-
     elif query.data == 'tips':
-
         await query.answer("➠ ᴛɪᴘs 💯\n\n✯ ᴀsᴋ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢ\n✯ ᴅᴏɴᴛ ᴀsᴋ ᴍᴏᴠɪᴇs ᴛʜᴏsᴇ ᴀʀᴇ ɴᴏᴛ ʀᴇʟᴇᴀsᴇᴅ\n✯ ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs ᴀʀᴇ ɴᴏᴛ ᴀᴠᴀɪʟɪᴀʙʟᴇ\n✯ ғᴏʀ ʙᴇᴛᴛᴇʀ ʀᴇsᴜʟᴛs :\n» Movie Name Year\n» Eg: Kaduva 2022\n\n𝐕𝐢𝐝 𝐅𝐚𝐜𝐭𝐨𝐫𝐲 ⚡", True)
-
     elif query.data == 'reqst1':
-
         await query.answer("➠ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ 💯\n\n✯ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ғᴏʀ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ ғɪʟᴇ\n\n𝐕𝐢𝐝 𝐅𝐚𝐜𝐭𝐨𝐫𝐲 ⚡", True)
-
     elif query.data == 'info':
-
         await query.answer("➠ ɪɴғᴏʀᴍᴀᴛɪᴏɴ 💯\n\n✯ ɪғ ʏᴏᴜ ᴅᴏɴᴛ sᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ | sᴇʀɪᴇs ғɪʟᴇ , ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ\n\n𝐕𝐢𝐝 𝐅𝐚𝐜𝐭𝐨𝐫𝐲 ⚡", True)
-
-
     try: await query.answer('Piracy Is Crime')
-
     except: pass
-
 
 async def auto_filter(client, msg, spoll=False):
     if not spoll:
