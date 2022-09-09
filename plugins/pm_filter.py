@@ -245,17 +245,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         return await query.answer('Piracy Is Crime')
     elif "connectcb" in query.data:
         await query.answer()
-
         group_id = query.data.split(":")[1]
-
         hr = await client.get_chat(int(group_id))
-
         title = hr.title
-
         user_id = query.from_user.id
-
         mkact = await make_active(str(user_id), str(group_id))
-
         if mkact:
             await query.message.edit_text(
                 f"Connected to **{title}**",
@@ -745,7 +739,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b><i>Hey {message.from_user.mention} 😍\n\n🔺Title : {search}\n🔻 Your Files is Ready Now</i></b>"
+        cap = f"<b><i>Hey {message.from_user.mention} 😍\n\n🔺Title : {search}\n🔻Your Files is Ready Now ❤️</i></b>"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
