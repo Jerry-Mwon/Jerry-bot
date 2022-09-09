@@ -153,8 +153,8 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('<b>Movie Not Available ❗\n\nReason :-\n» This Movie is Not Released on OTT Platfor\n» If Released Type Movie Name With Year\n» Movie is Not Available in The Database\n\n𝐕𝐢𝐝 𝐅𝐚𝐜𝐭𝐨𝐫𝐲 ⚡</b>')
-            await asyncio.sleep(20)
+            k = await query.message.edit('<b>Movie Not Available ❗\n\n➠ Reason :-\n» This Movie is Not Released on OTT Platform\n» If Released Try to Type Movie Name With Year\n» Movie is Not Available in The Database\n\n𝐕𝐢𝐝 𝐅𝐚𝐜𝐭𝐨𝐫𝐲 ⚡</b>')
+            await asyncio.sleep(25)
             await k.delete()
 
 
