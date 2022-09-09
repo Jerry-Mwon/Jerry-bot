@@ -778,7 +778,7 @@ async def auto_filter(client, msg, spoll=False):
         )
     else:
         cap = f"<b>Hey 👋🏻 {message.from_user.mention} 😍\n\n<i>🔖 Title : {search}\n📫 Your Files is Ready Now</i></b>"
-    if imdb and imdb.get('poster'):
+    if imdb and imdb.get('https://telegra.ph/file/cac48c3806cd3bbae08e0.jpg'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
                                       reply_markup=InlineKeyboardMarkup(btn))
