@@ -748,7 +748,7 @@ async def auto_filter(client, msg, spoll=False):
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
             fmsg = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
         except Exception as e:
-            logger.exception(e)
+            print(e)
             fmsg = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     else:
         fmsg = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))  
