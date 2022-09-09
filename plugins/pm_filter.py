@@ -742,8 +742,7 @@ async def auto_filter(client, msg, spoll=False):
         cap = f"<b><i>Hey {message.from_user.mention} 😍\n\n🔺Title : {search}\n🔻Your Files is Ready Now ❤️</i></b>"
     if imdb and imdb.get('poster'):
         try:
-            fmsg = await message.reply_photo(photo=imdb.get('https://telegra.ph/file/cac48c3806cd3bbae08e0.jpg'), caption=cap[:1024],
-                                      reply_markup=InlineKeyboardMarkup(btn))
+            fmsg = await message.reply_photo('https://telegra.ph/file/cac48c3806cd3bbae08e0.jpg', caption=cap[:1024],reply_markup=InlineKeyboardMarkup(btn))                                   
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
