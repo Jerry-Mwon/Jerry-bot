@@ -87,7 +87,7 @@ async def next_page(bot, query):
 
         [
 
-            InlineKeyboardButton(f'🎬 {title} 🎬', 'reqst1')
+            InlineKeyboardButton(f'🎬 {search} 🎬', 'reqst1')
 
         ]
 
@@ -710,7 +710,7 @@ async def auto_filter(client, msg, spoll=False):
 
         [
 
-            InlineKeyboardButton(f'🎬 {title} 🎬', 'reqst1')
+            InlineKeyboardButton(f'🎬 {search} 🎬', 'reqst1')
 
         ]
 
