@@ -178,7 +178,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     return await query.answer('Piracy Is Crime')
             else:
                 await query.message.edit_text(
-                    "I'm not connected to any groups!\nCheck /connections or connect to any groups",
+                    "<b>I'm not connected to any groups!\nCheck /connections or connect to any groups</b>",
                     quote=True
                 )
                 return await query.answer('Piracy Is Crime')
@@ -748,7 +748,7 @@ async def auto_filter(client, msg, spoll=False):
         cap = f"<b>Hey {message.from_user.mention} 😍\n\n<i>🔖 Title : {search}\n📫 Your Files is Ready Now</i></b>"
     if imdb and imdb.get('poster'):
         try:
-            await message.reply_photo(photo=imdb.get('https://te.legra.ph/file/cff210a2b2e12f63af827.jpg'), caption=cap[:1024],
+            await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
                                       reply_markup=InlineKeyboardMarkup(btn))
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
@@ -805,8 +805,8 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("I couldn't find anything related to that. Check your spelling")
-        await asyncio.sleep(8)
+        k = await msg.reply("<b>I Couldn't Find Anything Related to That. Check Your Spelling ❗</b>")
+        await asyncio.sleep(10)
         await k.delete()
         return
     SPELL_CHECK[msg.id] = movielist
@@ -817,7 +817,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("<b>I Couldn't Find Anything Related To That!! Did You Mean Any One of These?\n\nChoose Correct From Below</b>",
+    await msg.reply("<b>I Couldn't Find Anything Related To That!! Did You Mean Any One of These?\n\nChoose Correct From Below👇</b>",
                     reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(10)
     await k.delete()
