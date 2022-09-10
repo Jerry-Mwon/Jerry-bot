@@ -754,7 +754,7 @@ async def auto_filter(client, msg, spoll=False):
             await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))  
    
     await asyncio.sleep(DELETE_TIME)
-    await fmsg.delete()
+    await fek.delete()
 
     if spoll:
         await msg.message.delete()
@@ -771,7 +771,7 @@ async def advantage_spell_chok(msg):
     if not g_s:
         k = await msg.reply("I Couldn't Find Any Movie in That Name ❗")
         await asyncio.sleep(10)
-        await k.delete()
+        await fek.delete()
         return
     regex = re.compile(r".*(imdb|wikipedia).*", re.IGNORECASE)  # look for imdb / wiki results
     gs = list(filter(regex.match, g_s))
@@ -800,7 +800,7 @@ async def advantage_spell_chok(msg):
     if not movielist:
         k = await msg.reply("<b>I Couldn't Find Anything Related to That. Check Your Spelling ❗</b>")
         await asyncio.sleep(10)
-        await k.delete()
+        await fek.delete()
         return
     SPELL_CHECK[msg.id] = movielist
     btn = [[
@@ -813,7 +813,7 @@ async def advantage_spell_chok(msg):
     await msg.reply("<b>I Couldn't Find Anything Related To That!! Did You Mean Any One of These?\n\nChoose Correct From Below👇</b>",
                     reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(10)
-    await k.delete()
+    await fek.delete()
 
 async def manual_filters(client, message, text=False):
     group_id = message.chat.id
