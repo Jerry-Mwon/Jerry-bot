@@ -813,7 +813,7 @@ async def advantage_spell_chok(msg):
     await msg.reply("<b>I Couldn't Find Anything Related To That!! Did You Mean Any One of These?\n\nChoose Correct From Below👇</b>",
                     reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(10)
-    await fmsg.delete()
+    await k.delete()
 
 async def manual_filters(client, message, text=False):
     group_id = message.chat.id
