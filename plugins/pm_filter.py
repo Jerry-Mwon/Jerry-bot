@@ -800,7 +800,7 @@ async def advantage_spell_chok(msg):
     if not movielist:
         k = await msg.reply("<b>I Couldn't Find Anything Related to That. Check Your Spelling ❗</b>")
         await asyncio.sleep(10)
-        await fek.delete()
+        await k.delete()
         return
     SPELL_CHECK[msg.id] = movielist
     btn = [[
