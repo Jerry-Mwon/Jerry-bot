@@ -2,7 +2,7 @@
   <img src="assets/logo.jpg" alt="Eva Maria Logo">
 </p>
 <h1 align="center">
-  <b>Jerry AutoFiltet Bot</b>
+  <b>Jerry AutoFilter Bot</b>
 </h1>
 
 
