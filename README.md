@@ -57,7 +57,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<ahttps://app.koyeb.com/deploy?type=git&repository=github.com/Strange-AR/Jerry-Mwon&branch=master&name=jerry-mwon</a>
+<a https://app.koyeb.com/deploy?type=git&repository=github.com/Strange-AR/Jerry-Mwon&branch=master&name=jerry-mwon</a>
 </p>
 </details>
 
