@@ -57,9 +57,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a <a href="https://telegram.dog/XTZ_HerokuBot?start=RXZhbWFyaWFURy9FdmFNYXJpYSBtYXN0ZXI">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
+<ahttps://app.koyeb.com/deploy?type=git&repository=github.com/Strange-AR/Jerry-Mwon&branch=master&name=jerry-mwon</a>
 </p>
 </details>
 
