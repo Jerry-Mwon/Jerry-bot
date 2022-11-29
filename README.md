@@ -54,10 +54,11 @@ You can deploy this bot anywhere.
 
 <i>**[Watch Deploying Tutorial...](https://youtu.be/1G1XwEOnxxo)**</i>
 
-<details><summary>Deploy To Koyeb</summary>
+<details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?...)
+<a <a href="https://telegram.dog/XTZ_HerokuBot?start=RXZhbWFyaWFURy9FdmFNYXJpYSBtYXN0ZXI">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
 </details>
@@ -77,7 +78,7 @@ python3 bot.py
 
 ## Commands
 ```
-• /logs - to get the rescent errors
+• /logs - to get the recent errors
 • /stats - to get status of files in db.
 * /filter - add manual filters
 * /filters - view filters
